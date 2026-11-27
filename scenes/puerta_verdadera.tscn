@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bahvdxx7urr4y"]
+
+[ext_resource type="Texture2D" uid="uid://mkm4dn5gg1sq" path="res://assets/objetos/puerta verdadera/puerta_1.png" id="1_f2t0v"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p5viw"]
+radius = 52.0
+height = 138.0
+
+[node name="puerta_verdadera" type="Node2D" unique_id=952390195]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=394721896]
+texture = ExtResource("1_f2t0v")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1908028063]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1824712208]
+shape = SubResource("CapsuleShape2D_p5viw")

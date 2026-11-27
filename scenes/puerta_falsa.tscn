@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dabihesudmp2v"]
+
+[ext_resource type="Texture2D" uid="uid://c18rm7v48ogvg" path="res://assets/objetos/puerta_falsa.png" id="1_rmfyn"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uj04i"]
+radius = 45.0
+height = 126.0
+
+[node name="puerta_falsa" type="Node2D" unique_id=733288839]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1711782887]
+texture = ExtResource("1_rmfyn")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1828149455]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1756815169]
+shape = SubResource("CapsuleShape2D_uj04i")

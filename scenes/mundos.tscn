@@ -1,0 +1,206 @@
+[gd_scene format=3 uid="uid://bohdjkdpggkat"]
+
+[node name="Control" type="Control" unique_id=1127927430]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=823906927]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="." unique_id=1779530581]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 562.0
+offset_right = 130.0
+offset_bottom = 625.0
+theme_override_font_sizes/font_size = 40
+text = "Atras"
+
+[node name="mundo 1" type="VBoxContainer" parent="." unique_id=347625083]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 48.0
+offset_right = 389.0
+offset_bottom = 170.0
+
+[node name="Label" type="Label" parent="mundo 1" unique_id=510270249]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "Mundo 1"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="mundo 1" unique_id=1271211212]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Button" type="Button" parent="mundo 1/HBoxContainer" unique_id=1920570678]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 1
+
+"
+
+[node name="Button2" type="Button" parent="mundo 1/HBoxContainer" unique_id=1371307467]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 2
+"
+
+[node name="Button3" type="Button" parent="mundo 1/HBoxContainer" unique_id=1593581730]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 3
+"
+
+[node name="mundo 2" type="VBoxContainer" parent="." unique_id=1559175504]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 259.0
+offset_right = 469.0
+offset_bottom = 381.0
+
+[node name="Label" type="Label" parent="mundo 2" unique_id=203019837]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "Mundo 2"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="mundo 2" unique_id=768430452]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Button" type="Button" parent="mundo 2/HBoxContainer" unique_id=357037295]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 4
+
+"
+
+[node name="Button2" type="Button" parent="mundo 2/HBoxContainer" unique_id=2058128802]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 5
+"
+
+[node name="Button3" type="Button" parent="mundo 2/HBoxContainer" unique_id=1598261163]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 6
+"
+
+[node name="mundo 3" type="VBoxContainer" parent="." unique_id=761433032]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 99.0
+offset_right = 854.0
+offset_bottom = 221.0
+
+[node name="Label" type="Label" parent="mundo 3" unique_id=1495919820]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "Mundo 3"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="mundo 3" unique_id=590087796]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Button" type="Button" parent="mundo 3/HBoxContainer" unique_id=561873885]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 7
+
+"
+
+[node name="Button2" type="Button" parent="mundo 3/HBoxContainer" unique_id=2064400788]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 8
+"
+
+[node name="Button3" type="Button" parent="mundo 3/HBoxContainer" unique_id=524863110]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 9
+"
+
+[node name="mundo 4" type="VBoxContainer" parent="." unique_id=497612638]
+layout_mode = 0
+offset_left = 679.0
+offset_top = 313.0
+offset_right = 1005.0
+offset_bottom = 435.0
+
+[node name="Label" type="Label" parent="mundo 4" unique_id=1414128208]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "Mundo 4"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="mundo 4" unique_id=1597397497]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Button" type="Button" parent="mundo 4/HBoxContainer" unique_id=782387403]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 10
+
+"
+
+[node name="Button2" type="Button" parent="mundo 4/HBoxContainer" unique_id=1136861528]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel11
+"
+
+[node name="Button3" type="Button" parent="mundo 4/HBoxContainer" unique_id=402836708]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 12
+"
+
+[node name="mundo 5" type="VBoxContainer" parent="." unique_id=509984883]
+layout_mode = 0
+offset_left = 511.0
+offset_top = 478.0
+offset_right = 837.0
+offset_bottom = 600.0
+
+[node name="Label" type="Label" parent="mundo 5" unique_id=963765246]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "Mundo 5"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="mundo 5" unique_id=1833336587]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Button" type="Button" parent="mundo 5/HBoxContainer" unique_id=1932831865]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 13
+
+"
+
+[node name="Button2" type="Button" parent="mundo 5/HBoxContainer" unique_id=1954278117]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 14
+"
+
+[node name="Button3" type="Button" parent="mundo 5/HBoxContainer" unique_id=794479026]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "nivel 15
+"

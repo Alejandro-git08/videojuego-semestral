@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dm7xy6iqj6fgf"]
+
+[ext_resource type="Texture2D" uid="uid://hsvbarymwdl3" path="res://assets/objetos/maquina/maquina_1.png" id="1_p4v73"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uj04i"]
+radius = 69.0
+height = 174.0
+
+[node name="maquina" type="Node2D" unique_id=489206796]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=449964924]
+scale = Vector2(1.7, 1.7)
+texture = ExtResource("1_p4v73")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=781809544]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2104961198]
+shape = SubResource("CapsuleShape2D_uj04i")

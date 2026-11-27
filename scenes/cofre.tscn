@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://cq6swr7mkw8ak"]
+
+[ext_resource type="Texture2D" uid="uid://mwwx1uyykgpy" path="res://assets/objetos/cofre/cofre_1.png" id="1_cdi0l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uj04i"]
+size = Vector2(53, 36)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7h7mn"]
+radius = 53.0
+
+[node name="cofre" type="Node2D" unique_id=681332654]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=717522236]
+scale = Vector2(2, 2)
+texture = ExtResource("1_cdi0l")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=946568714]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=987215380]
+position = Vector2(0.5, 10)
+shape = SubResource("RectangleShape2D_uj04i")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=250511209]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=85409589]
+position = Vector2(1, 9)
+shape = SubResource("CircleShape2D_7h7mn")
